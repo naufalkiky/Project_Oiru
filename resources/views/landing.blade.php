@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Scaffold Bootstrap Template</title>
+  <title>Oiru</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -25,7 +25,7 @@
   <link href="{{ asset('resource/assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="{{ asset('resource/assets/css/main.css') }}" rel="stylesheet">
+  <link href="{{ asset('resource/assets/css/style.css') }}" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Scaffold
@@ -50,10 +50,10 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#hero" class="active">Beranda</a></li>
+          <li><a href="{{ route('about') }}">About</a></li>
+          <li><a href="#services">Setor Jelantah</a></li>
+          {{-- <li><a href="#portfolio">Portfolio</a></li> --}}
           <li><a href="#team">Team</a></li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
@@ -72,7 +72,7 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact">Kontak Kami</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
